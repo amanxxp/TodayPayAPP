@@ -27,5 +27,7 @@ This project is a starter template for building a React application using Vite. 
 First, clone the repository to your local machine using git:
 
 ```sh
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/amanxxp/TodayPayAPP.git
+cd TodayPayAPP
+
+To start - npm run dev
