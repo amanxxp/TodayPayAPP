@@ -1,0 +1,49 @@
+:root {
+  color: white;
+  background-color: #414141;
+}
+*{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Result{
+  height: 20vh;
+  margin: 0.1em;
+  margin-left: 5px;
+  margin-right: 25px;
+}
+.keys{
+  display: grid;
+  grid-template-columns: repeat(10,9.7%);
+  grid-template-rows: repeat(5,65%);
+  gap: 0.1em;
+  margin-left: 5px;
+}
+button{
+  font-size: 26px;
+  background-color: #555555;
+  color: white;
+  border: none;
+  padding: 0 ;
+}
+.number{
+  background-color: #73736E;
+}
+.math{
+  background-color: #F0A03A;
+}
+.large{
+  grid-column-start: 7;
+  grid-column-end:9 ;
+}
+.Result{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  Align-items: flex-end;
+  Justify-content:flex-end;
+}
+.explosion {
+  position: fixed;
+  right: 0; 
+  z-index: 100; 
+}
